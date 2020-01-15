@@ -2,8 +2,8 @@ public class Mesa {
 
     //atributos
     private int [][] mesa = {
-            //MESA1
-            //ID, PRECIO, CANT
+            //MESA
+            //ID, CANT
             //ENTRANTES
             {1,0},
             {2,0},
@@ -41,5 +41,16 @@ public class Mesa {
 
     }
 
-    //
+    //Metodos
+    public void limpiarmesa() {//limpiar todos los pedidos (poner a 0)
+        
+    }
+
+    public void setpedidos() {//establecer pedidos
+        
+    }
+
+    public void getpedidos() {//sacar los pedidos
+        
+    }
 }
