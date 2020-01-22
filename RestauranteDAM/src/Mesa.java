@@ -47,14 +47,13 @@ public class Mesa {
         }
     }
 
-    public void setPedidos(int[][] mesa, int fila, int columna) {// establecer pedidos
-        int[][] pedidomesa = new int[25][2];
-        if (mesa[fila][1] > 0) {
-            pedidomesa[fila][columna] = mesa[fila][columna];
-            System.out.print(pedidomesa[fila][columna] + " ");
-        }
+    public void setPedidos(int id, int cantidad) {
+        for (int i = 0; i < mesa.length; i++) {
+            if (mesa [i][0]==id) {
+                mesa[i][1]=cantidad;
+            }
+        }    
     }
-
     public int getPedidos(int[][] mesa, int fila, int columna) {// sacar los pedidos
         return mesa[fila][columna];
     }
