@@ -47,10 +47,10 @@ public class Mesa {
         }
     }
 
-    public void setPedidos(int id, int cantidad) {
+    public void setPedidos(int id, int cantidad) {//establece la cantidad de los
         for (int i = 0; i < mesa.length; i++) {
             if (mesa [i][0]==id) {
-                mesa[i][1]=cantidad;
+                mesa[i][1]+=cantidad;
             }
         }    
     }
