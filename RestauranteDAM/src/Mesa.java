@@ -54,6 +54,14 @@ public class Mesa {
             }
         }    
     }
+    public void verPedidos() {// sacar los pedidos
+        for (int i = 0; i < mesa.length; i++) {
+            for (int j = 0; j < mesa[0].length; j++) {
+                System.out.print(mesa[i][j]+"    ");
+            }
+            System.out.println();
+        }
+    }
     public int getPedidos(int[][] mesa, int fila, int columna) {// sacar los pedidos
         return mesa[fila][columna];
     }

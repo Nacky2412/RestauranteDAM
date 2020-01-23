@@ -1,4 +1,3 @@
-package proyectoAngy;
 import  java.util.Scanner;
 
 public class pedidos {                     

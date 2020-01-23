@@ -1,8 +1,6 @@
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-
-
 public class Hora {
 
 	public String date() {

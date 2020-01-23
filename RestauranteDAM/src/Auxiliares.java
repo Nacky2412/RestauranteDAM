@@ -1,4 +1,4 @@
-package proyectoAngy;
+
 
 public class Auxiliares {         //NOMBRE,                  ID, PRECIO, STOCK
          									//ENTRANTES

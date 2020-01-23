@@ -3,8 +3,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Main {
-    Scanner s = new Scanner(System.in);
-    public static void hacerPedidos(){
+    static Scanner s;
+    public static Mesa hacerPedidos(Mesa mesa){
         boolean salir = false;
         System.out.print("Introduce la ID y la CANT del producto (0 para salir) ");
         do{
@@ -14,9 +14,14 @@ public class Main {
                 salir = true;
             }else{
                 System.out.print("CANTIDAD: ");
-                int cant = s.nextInt();
+                int cantidad = s.nextInt();
+                mesa.setPedidos(id, cantidad);
             }
         }while(!salir);
+        return mesa;
+    }
+    public static void sacarFactura(Mesa mesa){
+        System.out.println("Factura");
     }
     public static void main(String[] args) {
         // HORA
@@ -34,7 +39,7 @@ public class Main {
 		// Aquí obtienes el formato que deseas
 		System.out.println(new SimpleDateFormat("dd-MM-yyyy").format(myDate));
 
-        Scanner s = new Scanner(System.in);
+        s = new Scanner(System.in);
         Restaurante restaurante = new Restaurante();
         Mesa mesa = new Mesa();
         System.out.println("    BIENVENIDO A RestauranteDAM     ");
@@ -46,9 +51,7 @@ public class Main {
         switch (opcion_1) {
         // RESTAURANTE
         case 1:
-            System.out.print("Cuantos sois? ");
-            int numPersonas = s.nextInt();
-            System.out.print("Elige una mesa: ");
+            System.out.println("Elige una mesa: ");
             System.out.println("MESA 1");
             System.out.println("MESA 2");
             System.out.println("MESA 3");
@@ -67,64 +70,124 @@ public class Main {
             int opcionMesa = s.nextInt();
             switch (opcionMesa) {
                 case 1:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 2:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 3:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 4:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 5:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 6:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 7:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 8:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 9:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 10:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 11:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 12:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 13:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 14:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
                 case 15:
+                    Mesa mesa1= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
+                    mesa1=hacerPedidos(mesa1);
+                    sacarFactura(mesa1);
+                    mesa1.verPedidos();
                     break;
             }
 

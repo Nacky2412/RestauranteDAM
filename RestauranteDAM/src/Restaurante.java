@@ -42,10 +42,7 @@ public class Restaurante {
     public static void imprimirCarta() {
         System.out.println("        MENU       ");
         for (int i = 0; i < tabla_inventario.length; i++) {
-            for (int j = 0; j < tabla_inventario[0].length - 1; j++) {
-                System.out.print(tabla_inventario[i][j] + "    ");
-
-            }
+                System.out.print(tabla_inventario[i][0] + "    "+tabla_inventario[i][2]+" euros");
             System.out.println();
         }
     }
