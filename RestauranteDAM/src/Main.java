@@ -78,116 +78,116 @@ public class Main {
                     mesa1.verPedidos();
                     break;
                 case 2:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa2= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa2=hacerPedidos(mesa2);
+                    sacarFactura(mesa2);
+                    mesa2.verPedidos();
                     break;
                 case 3:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa3= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa3=hacerPedidos(mesa3);
+                    sacarFactura(mesa3);
+                    mesa3.verPedidos();
                     break;
                 case 4:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa4= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa4=hacerPedidos(mesa4);
+                    sacarFactura(mesa4);
+                    mesa4.verPedidos();
                     break;
                 case 5:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa5= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa5=hacerPedidos(mesa5);
+                    sacarFactura(mesa5);
+                    mesa5.verPedidos();
                     break;
                 case 6:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa6= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa6=hacerPedidos(mesa6);
+                    sacarFactura(mesa6);
+                    mesa6.verPedidos();
                     break;
                 case 7:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa7= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa7=hacerPedidos(mesa7);
+                    sacarFactura(mesa7);
+                    mesa7.verPedidos();
                     break;
                 case 8:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa8= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa8=hacerPedidos(mesa8);
+                    sacarFactura(mesa8);
+                    mesa8.verPedidos();
                     break;
                 case 9:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa9= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa9=hacerPedidos(mesa9);
+                    sacarFactura(mesa9);
+                    mesa9.verPedidos();
                     break;
                 case 10:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa10= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa10=hacerPedidos(mesa10);
+                    sacarFactura(mesa10);
+                    mesa10.verPedidos();
                     break;
                 case 11:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa11= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa11=hacerPedidos(mesa11);
+                    sacarFactura(mesa11);
+                    mesa11.verPedidos();
                     break;
                 case 12:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa12= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa12=hacerPedidos(mesa12);
+                    sacarFactura(mesa12);
+                    mesa12.verPedidos();
                     break;
                 case 13:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa13= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa13=hacerPedidos(mesa13);
+                    sacarFactura(mesa13);
+                    mesa13.verPedidos();
                     break;
                 case 14:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa14= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa14=hacerPedidos(mesa14);
+                    sacarFactura(mesa14);
+                    mesa14.verPedidos();
                     break;
                 case 15:
-                    Mesa mesa1= new Mesa();
+                    Mesa mesa15= new Mesa();
                     restaurante.imprimirCarta();
                     System.out.print("Que van a tomar? ");
-                    mesa1=hacerPedidos(mesa1);
-                    sacarFactura(mesa1);
-                    mesa1.verPedidos();
+                    mesa15=hacerPedidos(mesa15);
+                    sacarFactura(mesa15);
+                    mesa15.verPedidos();
                     break;
             }
 
