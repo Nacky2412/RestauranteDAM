@@ -1,6 +1,8 @@
 public class Mesa {
 
     // atributos
+    private int posicion;
+    // La posicion sirve para sacar la factura y recorrer la mesa codigo a codigo para sacar factura trozo a trozo
     private int[][] mesa = {
             // MESA
             // ID, CANT
@@ -38,9 +40,26 @@ public class Mesa {
 
     // Constructor
     public Mesa() {
+        posicion=0;
     }
 
     // Metodos
+    
+    public int sacarCodigo(){
+        int codigo=0;
+        boolean salir=false;
+        for (int i = posicion; i < mesa.length&&!salir; i++) {
+           if (mesa[i][1]>0) {
+               codigo=mesa[i][0];
+               salir=true;
+               posicion=i;
+           }
+        }
+        return codigo;
+    }
+    public int sacarNumPlatos(int codigo){
+        return mesa[codigo][1];
+    }
     public void limpiarMesa() {// limpiar todos los pedidos (poner a 0)
         for (int i = 0; i < mesa.length; i++) {
             mesa[i][1] = 0;
@@ -57,10 +76,23 @@ public class Mesa {
     public void verPedidos() {// sacar los pedidos
         for (int i = 0; i < mesa.length; i++) {
             for (int j = 0; j < mesa[0].length; j++) {
-                System.out.print(mesa[i][j]+"    ");
+                if (mesa[i][1]>0) {
+                    System.out.print(mesa[i][j]+"    ");
+                }
             }
-            System.out.println();
+            if (mesa[i][1]>0) {
+                System.out.println();
+            }
         }
+    }
+    public int numeroPedidos(){
+        int numeropedidos=0;
+        for (int i = 0; i < mesa.length; i++) {
+            if (mesa[i][1]>0) {
+                numeropedidos++;
+            }
+        }
+        return numeropedidos;
     }
     public int getPedidos(int[][] mesa, int fila, int columna) {// sacar los pedidos
         return mesa[fila][columna];
