@@ -78,7 +78,7 @@ public class Restaurante {
         return mesa;
     }
     public static void sacarFactura(Mesa mesa){
-        System.out.println("Factura");
+        Facturacion.sacarFactura(mesa);
     }
     public void verMesas() {
         s=new Scanner(System.in);
@@ -227,7 +227,7 @@ public class Restaurante {
     public static void imprimirCarta() {
         System.out.println("        MENU       ");
         for (int i = 0; i < tabla_inventario.length; i++) {
-                System.out.print(tabla_inventario[i][0] + "    "+tabla_inventario[i][2]+" euros");
+                System.out.print(tabla_inventario[i][1]+"   "+tabla_inventario[i][0] + "    "+tabla_inventario[i][2]+" euros");
             System.out.println();
         }
     }

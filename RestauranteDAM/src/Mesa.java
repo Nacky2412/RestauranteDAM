@@ -44,21 +44,19 @@ public class Mesa {
     }
 
     // Metodos
+    public int[][] getMesa() {
+        return this.mesa;
+    }
     
-    public int sacarCodigo(){
+    public int sacarCodigo(int posicion){
         int codigo=0;
-        boolean salir=false;
-        for (int i = posicion; i < mesa.length&&!salir; i++) {
-           if (mesa[i][1]>0) {
-               codigo=mesa[i][0];
-               salir=true;
-               posicion=i;
-           }
+        if (mesa[posicion][1]>0) {
+            codigo=mesa[posicion][0];
         }
         return codigo;
     }
-    public int sacarNumPlatos(int codigo){
-        return mesa[codigo][1];
+    public int sacarNumPlatos(int posicion){
+        return mesa[posicion][1];
     }
     public void limpiarMesa() {// limpiar todos los pedidos (poner a 0)
         for (int i = 0; i < mesa.length; i++) {
