@@ -1,7 +1,6 @@
 public class Mesa {
 
     // atributos
-    private int posicion;
     // La posicion sirve para sacar la factura y recorrer la mesa codigo a codigo para sacar factura trozo a trozo
     private int[][] mesa = {
             // MESA
@@ -40,7 +39,7 @@ public class Mesa {
 
     // Constructor
     public Mesa() {
-        posicion=0;
+        
     }
 
     // Metodos

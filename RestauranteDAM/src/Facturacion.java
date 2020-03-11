@@ -1,13 +1,5 @@
-import java.util.Scanner;
-
 public class Facturacion {
-
-	// constructor
-	private String id_producto;
-	private String plato;
-	private double cantidadComprada;
-	private double precio;
-
+	
 	public static void sacarFactura(Mesa mesa){
 		Restaurante restaurante=new Restaurante();
 		double total = 0;

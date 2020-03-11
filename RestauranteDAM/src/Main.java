@@ -24,7 +24,6 @@ public class Main {
         s = new Scanner(System.in);
         Restaurante restaurante = new Restaurante();
         //Facturacion facturacion= new Facturacion();
-        Mesa mesa = new Mesa();
         System.out.println("    BIENVENIDO A RestauranteDAM     ");
         System.out.println("1. Restaurante");
         System.out.println("2. Facturacion");
